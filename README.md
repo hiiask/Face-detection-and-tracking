@@ -11,3 +11,4 @@ In Ubuntu open Terminal
 1.To run and use webcam type: $ python address_of_python_program\tracker.py --prototxt address_of_file\deploy.prototxt --model addrss_of_file\res10_300x300_ssd_iter_140000.caffemodel
 
 To quit simply press q.
+Caution: tracker.py uses a funtion CentroidTracker() which is imported from cent.py file.
